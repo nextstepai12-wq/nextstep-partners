@@ -1,0 +1,951 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>شبكة شركاء NextStep AI — سجّل جهتك وكن شريكًا</title>
+<meta name="description" content="انضم إلى شبكة شركاء NextStep AI: سجّل بيانات شركتك أو فريقك أو مؤسستك لنبني معًا شراكة حقيقية.">
+<meta name="theme-color" content="#FFFFFF">
+<link rel="canonical" href="https://nextstepai12-wq.github.io/nextstep-partners/">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="ar_AR">
+<meta property="og:site_name" content="NextStep AI">
+<meta property="og:url" content="https://nextstepai12-wq.github.io/nextstep-partners/">
+<meta property="og:title" content="شبكة شركاء NextStep AI — كن شريكًا في صناعة الخطوة التالية">
+<meta property="og:description" content="سجّل بيانات شركتك أو فريقك أو مؤسستك وانضم إلى شبكة شركاء NextStep AI.">
+<meta property="og:image" content="https://nextstepai12-wq.github.io/nextstep-partners/assets/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="شبكة شركاء NextStep AI">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="شبكة شركاء NextStep AI">
+<meta name="twitter:description" content="كن شريكًا في صناعة الخطوة التالية.">
+<meta name="twitter:image" content="https://nextstepai12-wq.github.io/nextstep-partners/assets/og-image.jpg">
+<link rel="icon" type="image/png" href="assets/n-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Tajawal:wght@400;500;700;800&display=swap" rel="stylesheet">
+<style>
+:root{
+  --navy:#0B1220; --blue:#2563EB; --cyan:#06B6D4; --emerald:#10B981; --gray:#F8FAFC;
+  --text:#0B1220; --muted:#51607A; --line:#E3E9F3;
+  --grad:linear-gradient(135deg,#2563EB 0%,#06B6D4 100%);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+html,body{max-width:100%;overflow-x:hidden}
+body{font-family:'Manrope','Tajawal',system-ui,sans-serif;background:#fff;color:var(--text);line-height:1.7}
+a{color:inherit;text-decoration:none}
+.wrap{max-width:1140px;margin:0 auto;padding:0 22px;position:relative;z-index:1}
+#dots{position:fixed;inset:0;width:100%;height:100%;z-index:0;pointer-events:none}
+.no-canvas body{background-image:radial-gradient(rgba(37,99,235,.14) 1.4px,transparent 1.5px);background-size:34px 34px}
+#bar{position:fixed;top:0;right:0;height:4px;width:0;background:var(--grad);z-index:100;transition:width .1s}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);opacity:0}
+
+/* header */
+header{display:flex;align-items:center;justify-content:space-between;padding:16px 0;gap:14px}
+.brand{display:flex;align-items:center;gap:10px;font-weight:800;font-size:22px;direction:ltr;letter-spacing:-.3px}
+.brand img{height:46px;width:auto}
+.brand b{color:var(--cyan)}
+nav{display:flex;gap:6px;align-items:center}
+nav a{font-weight:700;font-size:15px;padding:8px 14px;border-radius:10px;color:var(--muted);transition:background .2s,color .2s}
+nav a:hover{background:#EEF4FF;color:var(--blue)}
+nav .go{background:var(--grad);color:#fff}
+nav .go:hover{color:#fff;opacity:.92;background:var(--grad)}
+@media (max-width:760px){nav a:not(.go){display:none}}
+
+/* hero */
+.hero{display:grid;grid-template-columns:1fr 1fr;gap:30px;align-items:center;padding:26px 0 40px}
+.tag{display:inline-flex;align-items:center;gap:8px;background:#EEF4FF;color:var(--blue);padding:7px 16px;border-radius:999px;font-size:15px;font-weight:700;margin-bottom:18px}
+.tag i{width:8px;height:8px;border-radius:50%;background:var(--emerald);animation:ping 1.8s infinite}
+@keyframes ping{70%{box-shadow:0 0 0 10px rgba(16,185,129,0)}100%{box-shadow:0 0 0 0 rgba(16,185,129,0)}}
+h1{font-size:clamp(34px,5.2vw,58px);line-height:1.22;font-weight:800;margin-bottom:16px;letter-spacing:-.5px}
+h1 em{font-style:normal;background:var(--grad);-webkit-background-clip:text;background-clip:text;color:transparent}
+.lead{font-size:19px;color:var(--muted);max-width:540px;margin-bottom:26px}
+.cta-row{display:flex;gap:14px;flex-wrap:wrap}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;border:0;cursor:pointer;font-family:inherit;font-weight:800;font-size:18px;padding:15px 30px;border-radius:14px;min-height:52px;transition:transform .2s,box-shadow .25s;will-change:transform}
+.btn-primary{background:var(--grad);color:#fff;box-shadow:0 12px 28px rgba(37,99,235,.32)}
+.btn-primary:hover{box-shadow:0 16px 36px rgba(37,99,235,.42)}
+.btn-ghost{background:#fff;color:var(--navy);border:1.5px solid var(--line)}
+.btn-ghost:hover{border-color:var(--blue);color:var(--blue)}
+.btn[disabled]{opacity:.65;cursor:wait}
+.mini{display:flex;gap:22px;margin-top:28px;flex-wrap:wrap}
+.mini div{display:flex;align-items:center;gap:10px;font-weight:700;font-size:15px;color:var(--navy)}
+.mini svg{color:var(--blue)}
+
+/* 3D scene */
+.scene{perspective:1200px;position:relative;display:flex;justify-content:center}
+.tilt{transform-style:preserve-3d;transition:transform .18s ease-out;will-change:transform;position:relative;width:min(100%,560px)}
+.tilt .art{display:block;width:100%;height:auto;-webkit-mask-image:radial-gradient(ellipse 74% 72% at 50% 50%,#000 58%,transparent 100%);mask-image:radial-gradient(ellipse 74% 72% at 50% 50%,#000 58%,transparent 100%);filter:drop-shadow(0 30px 40px rgba(37,99,235,.18))}
+.chip{position:absolute;display:flex;align-items:center;gap:10px;background:rgba(255,255,255,.92);border:1px solid var(--line);border-radius:16px;padding:10px 16px;font-weight:700;font-size:15px;box-shadow:0 14px 30px rgba(11,18,32,.12);backdrop-filter:blur(8px);white-space:nowrap}
+.chip svg{color:var(--blue)}
+.chip.c1{top:8%;right:-2%;transform:translateZ(90px);animation:fl 5s ease-in-out infinite}
+.chip.c2{top:46%;left:-4%;transform:translateZ(70px);animation:fl 6s ease-in-out -2s infinite}
+.chip.c3{bottom:12%;right:2%;transform:translateZ(110px);animation:fl 5.5s ease-in-out -1s infinite}
+@keyframes fl{50%{translate:0 -12px}}
+@media (max-width:860px){.chip.c1{right:2%}.chip.c2{left:0}}
+
+/* sections */
+section{padding:52px 0}
+.alt{background:rgba(248,250,252,.92)}
+h2{font-size:clamp(26px,3.6vw,38px);font-weight:800;margin-bottom:10px;letter-spacing:-.3px}
+.sub{color:var(--muted);font-size:18px;margin-bottom:28px;max-width:660px}
+.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;perspective:1000px}
+.card{position:relative;background:#fff;border:1px solid var(--line);border-radius:22px;padding:26px;transition:transform .2s ease-out,box-shadow .3s,border-color .3s;transform-style:preserve-3d;box-shadow:0 8px 24px rgba(11,18,32,.04)}
+.card::before{content:"";position:absolute;inset:0;border-radius:inherit;background:radial-gradient(320px circle at var(--mx,50%) var(--my,0%),rgba(37,99,235,.13),transparent 60%);opacity:0;transition:opacity .3s;pointer-events:none}
+.card:hover{border-color:#BBD0FF;box-shadow:0 22px 44px rgba(37,99,235,.14)}
+.card:hover::before{opacity:1}
+.card .ic{width:54px;height:54px;border-radius:16px;background:#EEF4FF;color:var(--blue);display:flex;align-items:center;justify-content:center;margin-bottom:14px;transition:transform .3s,background .3s,color .3s}
+.card:hover .ic{background:var(--grad);color:#fff;transform:translateZ(30px) rotate(-6deg) scale(1.08)}
+.card h3{font-size:20px;margin-bottom:6px}
+.card p{color:var(--muted);font-size:16px}
+.pillars{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:6px}
+.pillar{display:flex;gap:14px;align-items:center;background:#fff;border:1px solid var(--line);border-radius:18px;padding:16px 18px}
+.pillar .ic{flex:none;width:46px;height:46px;border-radius:14px;background:#EEF4FF;color:var(--blue);display:flex;align-items:center;justify-content:center}
+.pillar b{display:block;font-size:17px;line-height:1.3}
+.pillar span{font-size:14px;color:var(--muted);font-family:'Manrope',sans-serif}
+.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;counter-reset:s}
+.stp{position:relative;background:#fff;border:1px solid var(--line);border-radius:22px;padding:26px 26px 26px 26px}
+.stp::before{counter-increment:s;content:counter(s);position:absolute;top:-16px;right:22px;width:38px;height:38px;border-radius:12px;background:var(--grad);color:#fff;font-weight:800;display:flex;align-items:center;justify-content:center;box-shadow:0 8px 18px rgba(37,99,235,.3)}
+.stp h3{font-size:20px;margin:8px 0 4px}
+.stp p{color:var(--muted);font-size:16px}
+
+/* social */
+.social{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.soc{display:flex;align-items:center;gap:16px;background:#fff;border:1px solid var(--line);border-radius:20px;padding:20px 22px;transition:transform .25s,box-shadow .25s,border-color .25s}
+.soc:hover{transform:translateY(-6px);box-shadow:0 20px 40px rgba(37,99,235,.14);border-color:#BBD0FF}
+.soc .si{flex:none;width:52px;height:52px;border-radius:15px;display:flex;align-items:center;justify-content:center;color:#fff}
+.soc.ig .si{background:linear-gradient(135deg,#F58529,#DD2A7B 55%,#8134AF)}
+.soc.li .si{background:#0A66C2}
+.soc.wa .si{background:#25D366;color:#06210F}
+.soc b{display:block;font-size:18px}
+.soc span{font-size:14px;color:var(--muted)}
+
+/* register */
+.reg{display:grid;grid-template-columns:.85fr 1.15fr;gap:34px;align-items:start}
+.pc-scene{perspective:1100px;position:sticky;top:30px}
+.stamp{position:absolute;left:22px;bottom:18px;border:3px solid var(--emerald);color:var(--emerald);font-weight:800;border-radius:12px;padding:4px 14px;font-size:18px;transform:rotate(-12deg) scale(0);opacity:0;transition:.5s cubic-bezier(.2,1.6,.4,1)}
+
+.form-card{background:#fff;border:1px solid var(--line);border-radius:28px;padding:30px;box-shadow:0 30px 70px rgba(11,18,32,.09)}
+.form-card h2{font-size:30px}
+.stepper{display:flex;align-items:center;gap:8px;margin:14px 0 6px}
+.dot{flex:1;height:8px;border-radius:99px;background:#EAF0F8;overflow:hidden;position:relative}
+.dot::after{content:"";position:absolute;inset:0;background:var(--grad);transform:scaleX(0);transform-origin:right;transition:transform .4s}
+.dot.on::after{transform:scaleX(1)}
+.step-t{font-size:15px;color:var(--muted);margin-bottom:18px;font-weight:600}
+.step-t b{color:var(--blue)}
+.panel{display:none;animation:in .35s}
+.panel.act{display:block}
+@keyframes in{from{opacity:0;transform:translateX(-14px)}to{opacity:1;transform:none}}
+.field{margin-bottom:14px}
+label.l{display:block;font-weight:700;margin-bottom:6px;font-size:16px}
+label.l small{color:var(--muted);font-weight:500}
+input[type=text],input[type=email],input[type=tel],input[type=url],input[type=number],select,textarea{width:100%;font-family:inherit;font-size:17px;color:var(--text);background:var(--gray);border:1.5px solid var(--line);border-radius:12px;padding:13px 16px;min-height:52px;outline:none;transition:border-color .2s,box-shadow .2s,background .2s}
+textarea{min-height:104px;resize:vertical;line-height:1.6}
+input:focus,select:focus,textarea:focus{border-color:var(--blue);background:#fff;box-shadow:0 0 0 4px rgba(37,99,235,.14)}
+.bad{border-color:#E5484D!important}
+.err{color:#C93A3F;font-size:14px;min-height:20px;margin-top:3px}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.chips{display:flex;flex-wrap:wrap;gap:10px}
+.cb{position:relative}
+.cb span{display:inline-flex;align-items:center;gap:8px;padding:10px 16px;border:1.5px solid var(--line);border-radius:999px;font-weight:700;font-size:15px;background:var(--gray);cursor:pointer;transition:all .2s;min-height:44px}
+.cb input:checked + span{background:var(--grad);color:#fff;border-color:transparent;box-shadow:0 8px 18px rgba(37,99,235,.28)}
+.cb input:focus-visible + span{outline:3px solid rgba(37,99,235,.35);outline-offset:2px}
+.sumbox{background:var(--gray);border:1px solid var(--line);border-radius:16px;padding:16px 18px;margin-bottom:14px;font-size:15.5px}
+.sumbox div{display:flex;justify-content:space-between;gap:14px;padding:6px 0;border-bottom:1px dashed var(--line)}
+.sumbox div:last-child{border:0}
+.sumbox span{color:var(--muted);flex:none}
+.sumbox b{text-align:left;word-break:break-word}
+.check{display:flex;gap:12px;align-items:flex-start;margin:6px 0 4px;font-size:15.5px;cursor:pointer}
+.check input{width:22px;height:22px;margin-top:4px;accent-color:var(--blue);flex:none}
+.privacy{font-size:14px;color:var(--muted);margin:10px 0 0;display:flex;gap:8px;align-items:flex-start}
+.privacy svg{flex:none;color:var(--emerald);margin-top:3px}
+.nav-row{display:flex;gap:12px;margin-top:20px}
+.nav-row .btn{flex:1}
+.nav-row .btn-ghost{flex:0 0 auto;padding-inline:24px}
+.hp{position:absolute;top:0;right:0;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);opacity:0;pointer-events:none}
+.form-msg{text-align:center;color:#C93A3F;margin-top:12px;min-height:24px}
+.success{display:none;text-align:center;padding:6px 0}
+.ok{width:88px;height:88px;margin:0 auto 16px;border-radius:50%;background:var(--emerald);color:#fff;display:flex;align-items:center;justify-content:center;animation:pop .6s cubic-bezier(.2,1.6,.4,1);box-shadow:0 12px 30px rgba(16,185,129,.4)}
+@keyframes pop{from{transform:scale(0) rotate(-90deg)}to{transform:scale(1) rotate(0)}}
+.success .sub{margin-inline:auto;font-size:17px}
+.btn-wa{background:#25D366;color:#06210F;width:100%;box-shadow:0 12px 28px rgba(37,211,102,.32);margin-top:6px}
+.succ-row{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:12px}
+.succ-row .btn{font-size:16px;padding:12px}
+
+/* founder */
+footer{padding:26px 0 90px;text-align:center;color:var(--muted);font-size:15px}
+footer img{height:66px;width:auto;display:block;margin:0 auto 12px}
+
+#sticky{position:fixed;bottom:14px;left:14px;right:14px;z-index:60;display:none;transform:translateY(120%);transition:transform .35s}
+#sticky.show{transform:none}
+#sticky .btn{width:100%;box-shadow:0 14px 34px rgba(37,99,235,.45)}
+#cv{position:fixed;inset:0;pointer-events:none;z-index:200}
+.reveal{opacity:0;transform:translateY(26px);transition:opacity .7s,transform .7s}
+.reveal.in{opacity:1;transform:none}
+
+@media (max-width:900px){
+  .hero{grid-template-columns:1fr;padding-top:6px}
+  .scene{order:-1;margin-bottom:6px}
+  .grid3,.steps,.social,.pillars{grid-template-columns:1fr}
+  .steps{gap:26px}
+  .reg{grid-template-columns:1fr}
+  .pc-scene{position:static}
+  .two{grid-template-columns:1fr}
+  .form-card{padding:24px 18px}
+  #sticky{display:block}
+}
+@media (prefers-reduced-motion:reduce){
+  *{animation:none!important;transition:none!important}
+  html{scroll-behavior:auto}
+  .reveal{opacity:1;transform:none}
+}
+/* ===== بطاقة الشريك (فاتحة) ===== */
+.pcard{border-radius:26px;background:linear-gradient(150deg,#FFFFFF 0%,#EAF2FF 60%,#DDF6FB 100%);color:var(--navy);border:1px solid #CFE0FF;padding:26px;position:relative;overflow:hidden;box-shadow:0 30px 60px rgba(37,99,235,.18);transform-style:preserve-3d;transition:transform .18s ease-out,padding-bottom .4s}
+.pcard::before{content:"";position:absolute;inset:0 0 auto 0;height:6px;background:var(--grad)}
+.pcard::after{content:"";position:absolute;inset:0;background:radial-gradient(280px circle at var(--tx,80%) var(--ty,0%),rgba(37,99,235,.14),transparent 62%);pointer-events:none}
+.pc-top{display:flex;align-items:center;justify-content:space-between;direction:ltr;margin:6px 0 18px;gap:10px}
+.pc-top .lg{display:flex;align-items:center;gap:10px;font-weight:800;font-size:19px}
+.pc-top .lg img{height:38px;width:auto}
+.pc-top small{font-size:12px;color:var(--blue);font-weight:800;letter-spacing:.8px;background:#fff;border:1px solid #CFE0FF;padding:3px 10px;border-radius:999px}
+.pc-type{display:inline-block;background:rgba(37,99,235,.1);color:var(--blue);border-radius:999px;padding:3px 14px;font-size:14px;font-weight:700;margin-bottom:10px}
+.pc-name{font-size:26px;font-weight:800;line-height:1.35;min-height:36px;word-break:break-word}
+.pc-name.ph{color:#9AA9C4}
+.pc-en{direction:ltr;text-align:right;font-family:'Manrope',sans-serif;color:var(--muted);font-size:16px;min-height:24px}
+.pc-meta{display:grid;grid-template-columns:1fr 1fr;gap:12px;border-top:1px dashed #BBD0FF;margin-top:14px;padding-top:14px;font-weight:700;font-size:15px}
+.pc-meta span{display:block;font-size:12px;color:var(--muted);font-weight:600}
+.pc-tags{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px;min-height:30px}
+.pc-tags i{font-style:normal;font-size:13px;font-weight:700;background:#fff;border:1px solid #CFE0FF;padding:3px 12px;border-radius:999px;color:var(--blue)}
+.pcard.done{padding-bottom:78px}
+.pcard.done .stamp{transform:rotate(-12deg) scale(1);opacity:1}
+
+/* ===== عرض الشعار ===== */
+.about{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center}
+.showcase{position:relative;perspective:1100px;min-height:360px;display:flex;align-items:center;justify-content:center}
+.sc-glow{position:absolute;width:86%;height:86%;border-radius:50%;background:radial-gradient(circle,rgba(37,99,235,.22),rgba(6,182,212,.12) 55%,transparent 72%);filter:blur(18px)}
+.sc-card{position:relative;width:min(100%,460px);background:rgba(255,255,255,.94);border:1px solid #D6E4FF;border-radius:30px;padding:38px 34px;box-shadow:0 34px 70px rgba(37,99,235,.2),inset 0 0 0 6px rgba(238,244,255,.8);transform-style:preserve-3d;transition:transform .18s ease-out;display:flex;flex-direction:column;align-items:center;gap:18px}
+.sc-card img{width:100%;height:auto;display:block;transform:translateZ(40px)}
+.palette{display:flex;gap:10px;transform:translateZ(30px)}
+.palette i{width:26px;height:26px;border-radius:9px;box-shadow:0 6px 14px rgba(11,18,32,.18);border:2px solid #fff}
+.sc-orb{position:absolute;border-radius:50%;background:var(--grad);opacity:.9;animation:fl 6s ease-in-out infinite}
+.sc-orb.o1{width:46px;height:46px;top:6%;right:4%}
+.sc-orb.o2{width:26px;height:26px;bottom:8%;left:6%;animation-delay:-2s}
+.about .pillars{grid-template-columns:1fr}
+
+/* ===== بطاقة المؤسس (فاتحة) ===== */
+.founder{margin-top:20px;background:linear-gradient(135deg,#FFFFFF 0%,#EAF2FF 55%,#DDF6FB 100%);color:var(--navy);border:1px solid #CFE0FF;border-radius:30px;padding:34px;display:flex;align-items:center;gap:28px;position:relative;overflow:hidden;box-shadow:0 24px 60px rgba(37,99,235,.14)}
+.founder::before{content:"";position:absolute;width:380px;height:380px;left:-120px;top:-170px;background:radial-gradient(circle,rgba(37,99,235,.16),transparent 65%)}
+.founder::after{content:"";position:absolute;width:340px;height:340px;right:-110px;bottom:-190px;background:radial-gradient(circle,rgba(6,182,212,.2),transparent 65%)}
+.founder > *{position:relative;z-index:1}
+.f-photo{flex:none;position:relative;width:132px;height:132px;border-radius:50%;padding:5px;background:var(--grad);box-shadow:0 16px 34px rgba(37,99,235,.3)}
+.f-photo .fb,.f-photo #fPhoto{position:absolute;inset:5px;width:calc(100% - 10px);height:calc(100% - 10px);border-radius:50%}
+.f-photo .fb{background:#fff;object-fit:contain;padding:24px}
+.f-photo #fPhoto{object-fit:cover;opacity:0;transition:opacity .4s;background:#fff}
+.f-photo #fPhoto.ok{opacity:1}
+.f-name{font-size:30px;font-weight:800;line-height:1.3}
+.f-role{color:var(--muted);font-size:18px;margin-top:2px}
+.f-role b{color:var(--blue);font-family:'Manrope',sans-serif}
+.f-slogan{margin-top:6px;font-size:15px;color:var(--muted);direction:ltr;text-align:right;font-family:'Manrope',sans-serif;font-weight:600}
+.f-link{margin-inline-start:auto;display:inline-flex;gap:8px;align-items:center;font-weight:800;font-size:15px;background:#0A66C2;color:#fff;padding:12px 20px;border-radius:14px;box-shadow:0 10px 24px rgba(10,102,194,.3);transition:transform .2s}
+.f-link:hover{transform:translateY(-3px)}
+
+/* ===== الهاتف ===== */
+.phone{display:flex;gap:10px;direction:ltr}
+.phone select{flex:0 0 138px;width:138px;padding-inline:10px;font-size:15px}
+.phone input{flex:1;min-width:0}
+.hint{font-size:13px;color:var(--muted);margin-top:4px}
+.cnt{font-size:13px;color:var(--muted);text-align:left;margin-top:4px}
+h1,h2,.sub,.lead{text-wrap:balance}
+@keyframes sway{0%,100%{transform:rotateY(-8deg) rotateX(2deg)}50%{transform:rotateY(8deg) rotateX(-2deg)}}
+@media (pointer:coarse){.tilt,.sc-card{animation:sway 9s ease-in-out infinite}}
+.legal a{color:var(--blue);font-weight:700;text-decoration:underline;text-underline-offset:3px}
+footer .links{margin-top:6px}footer .links a{color:var(--blue);font-weight:700}
+.pc-top .lg,.pc-top small,.brand{white-space:nowrap}
+@media (max-width:420px){.pc-top .lg{font-size:17px;gap:8px}.pc-top .lg img{height:32px}.pc-top small{font-size:11px;padding:3px 8px}}
+@media (max-width:900px){
+  .about{grid-template-columns:1fr;gap:26px}
+  .showcase{min-height:300px}
+  .founder{flex-direction:column;text-align:center;padding:30px 22px}
+  .f-link{margin:0}
+  .f-slogan{text-align:center}
+}
+
+/* ===== رمز المتابعة ===== */
+.refbox{display:flex;align-items:center;justify-content:space-between;gap:12px;background:linear-gradient(135deg,#EEF4FF,#E3F8FC);border:1.5px dashed #9DB9F5;border-radius:18px;padding:14px 18px;margin:4px 0 16px;direction:ltr}
+.refbox span{font-size:13px;color:var(--muted);font-weight:700;direction:rtl}
+.refbox b{font-size:24px;letter-spacing:2px;font-family:'Manrope',monospace;color:var(--navy)}
+.refbox button{border:0;background:var(--grad);color:#fff;font-weight:800;font-family:inherit;border-radius:10px;padding:9px 16px;cursor:pointer;min-height:40px}
+/* ===== تتبّع الطلب ===== */
+.track-card{max-width:760px;margin:0 auto;background:#fff;border:1px solid var(--line);border-radius:28px;padding:30px;box-shadow:0 30px 70px rgba(11,18,32,.08);position:relative;overflow:hidden}
+.track-card::before{content:"";position:absolute;inset:0 0 auto 0;height:6px;background:var(--grad)}
+.track-form{display:grid;grid-template-columns:1fr 1fr auto;gap:12px;align-items:end;margin-top:6px}
+.track-form .field{margin:0}
+.track-form input{direction:ltr;text-transform:uppercase}
+.track-form input[type=email]{text-transform:none}
+.tres{margin-top:22px;display:none}
+.tres.show{display:block;animation:in .4s}
+.tres h3{font-size:22px;margin-bottom:2px}
+.tres .st{color:var(--muted);font-size:16px;margin-bottom:16px}
+.tl{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin:14px 0 12px}
+.tl div{position:relative;text-align:center;font-size:14px;font-weight:700;color:var(--muted);padding-top:34px}
+.tl div::before{content:"";position:absolute;top:8px;left:50%;transform:translateX(-50%);width:18px;height:18px;border-radius:50%;background:#E3E9F3;border:3px solid #fff;box-shadow:0 0 0 2px #E3E9F3;z-index:1}
+.tl div::after{content:"";position:absolute;top:16px;right:50%;width:100%;height:3px;background:#E3E9F3}
+.tl div:first-child::after{display:none}
+.tl div.on{color:var(--navy)}
+.tl div.on::before{background:var(--grad);box-shadow:0 0 0 2px var(--blue)}
+.tl div.on::after{background:var(--grad)}
+.tl div.bad::before{background:#E5484D;box-shadow:0 0 0 2px #E5484D}
+.tmsg{background:var(--gray);border:1px solid var(--line);border-radius:16px;padding:14px 18px;font-size:16px}
+.tmsg.nf{background:#FFF4F4;border-color:#F6CACA;color:#9B2C2C}
+/* ===== الأسئلة الشائعة ===== */
+.faq{max-width:820px;margin:0 auto;display:grid;gap:12px}
+.faq details{background:#fff;border:1px solid var(--line);border-radius:18px;padding:0 20px;transition:box-shadow .25s,border-color .25s}
+.faq details[open]{border-color:#BBD0FF;box-shadow:0 14px 34px rgba(37,99,235,.1)}
+.faq summary{cursor:pointer;list-style:none;font-weight:800;font-size:18px;padding:18px 0;display:flex;justify-content:space-between;gap:14px;align-items:center}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{content:"+";flex:none;width:30px;height:30px;border-radius:10px;background:#EEF4FF;color:var(--blue);display:flex;align-items:center;justify-content:center;font-size:22px;line-height:1;transition:transform .25s,background .25s}
+.faq details[open] summary::after{content:"–";background:var(--grad);color:#fff}
+.faq p{color:var(--muted);font-size:17px;padding:0 0 18px}
+/* ===== المؤسس ===== */
+.founder{align-items:center}
+.f-photo{width:150px;height:150px}
+.f-badges{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}
+.f-badges span{font-size:13px;font-weight:700;background:#fff;border:1px solid #CFE0FF;color:var(--blue);padding:4px 12px;border-radius:999px;font-family:'Manrope','Tajawal',sans-serif}
+.f-actions{margin-inline-start:auto;display:flex;flex-direction:column;gap:10px}
+.f-actions .f-link{margin:0;justify-content:center}
+.f-link.alt{background:#fff;color:var(--navy);border:1.5px solid #CFE0FF;box-shadow:none}
+@media (max-width:900px){
+  .track-form{grid-template-columns:1fr}
+  .tl div{font-size:12px}
+  .refbox b{font-size:20px}
+  .f-actions{margin:0;width:100%}
+  .f-badges{justify-content:center}
+  .f-photo{width:140px;height:140px}
+}
+/* إصلاح: على الشاشات الضيقة (≤360px) كان الحد الأدنى لعرض بطاقة الشريك يوسّع عمود الشبكة ويقطع النموذج */
+.reg>*{min-width:0}
+.pc-top{flex-wrap:wrap;row-gap:8px}
+@media (max-width:420px){.pcard{padding:22px 18px}.pc-top .lg{font-size:16px}.pc-top small{font-size:10.5px;letter-spacing:.4px;padding:3px 8px}.pc-name{font-size:23px}}
+</style>
+</head>
+<body>
+<div id="bar"></div>
+<canvas id="dots" aria-hidden="true"></canvas>
+<canvas id="cv" aria-hidden="true"></canvas>
+
+<div class="wrap">
+<header>
+  <a class="brand" href="#top" aria-label="NextStep AI">
+    <img src="assets/n-icon.png" alt=""><span>NextStep <b>AI</b></span>
+  </a>
+  <nav>
+    <a href="#about">عن المنصة</a>
+    <a href="#areas">مجالات الشراكة</a>
+    <a href="#faq">الأسئلة</a><a href="#track">تتبّع طلبك</a><a href="#connect">تواصل</a>
+    <a class="go" href="#register">سجّل كشريك</a>
+  </nav>
+</header>
+
+<main id="top">
+<div class="hero">
+  <div class="reveal">
+    <span class="tag"><i></i>شبكة شركاء NextStep AI</span>
+    <h1>كن شريكًا في صناعة <em>الخطوة التالية</em></h1>
+    <p class="lead">نبني في NextStep AI شبكة من الشركات والفرق والمؤسسات التي تؤمن بأن الذكاء الاصطناعي يصنع قرارات أذكى. سجّل بيانات جهتك لنبني معًا شراكة حقيقية.</p>
+    <div class="cta-row">
+      <a class="btn btn-primary mag" href="#register">سجّل جهتك الآن</a>
+      <a class="btn btn-ghost" href="#about">تعرّف على المنصة</a>
+    </div>
+    <div class="mini">
+      <div><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg>التسجيل مجاني</div>
+      <div><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg>أربع خطوات قصيرة</div>
+      <div><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg>بياناتك لا تُعرض للعامة</div>
+    </div>
+  </div>
+  <div class="scene" id="scene">
+    <div class="tilt" id="tilt">
+      <img class="art" src="assets/hero-3d.png" alt="شعار NextStep AI ثلاثي الأبعاد على شكل درجات صاعدة">
+      <div class="chip c1"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.9M16 3.1a4 4 0 0 1 0 7.8"/></svg>شركات وفرق</div>
+      <div class="chip c2"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2l2.4 5.6L20 10l-5.6 2.4L12 18l-2.4-5.6L4 10l5.6-2.4z"/></svg>ذكاء اصطناعي</div>
+      <div class="chip c3"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 17l6-6 4 4 8-8M15 7h6v6"/></svg>نمو مشترك</div>
+    </div>
+  </div>
+</div>
+</main>
+</div>
+
+<section id="about" class="alt">
+  <div class="wrap about">
+    <div class="showcase reveal" id="showcase">
+      <div class="sc-glow"></div>
+      <div class="sc-orb o1"></div><div class="sc-orb o2"></div>
+      <div class="sc-card" id="scCard">
+        <img src="assets/logo.png" alt="شعار NextStep AI — Your Next Step. Smarter with AI.">
+        <div class="palette" aria-hidden="true"><i style="background:#0B1220"></i><i style="background:#2563EB"></i><i style="background:#06B6D4"></i><i style="background:#10B981"></i></div>
+      </div>
+    </div>
+    <div>
+      <h2 class="reveal">ما هي NextStep AI؟</h2>
+      <p class="sub reveal">منصة ذكاء اصطناعي ترافق الطلبة في رحلتهم الأكاديمية والمهنية، لتكون خطوتهم التالية أذكى وأوضح. ونؤمن أن الشراكات الصحيحة تضاعف أثر هذه الرحلة.</p>
+      <div class="pillars reveal">
+        <div class="pillar"><div class="ic"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2l2.4 5.6L20 10l-5.6 2.4L12 18l-2.4-5.6L4 10l5.6-2.4z"/></svg></div><div><b>إرشاد بالذكاء الاصطناعي</b><span>AI-Powered Guidance</span></div></div>
+        <div class="pillar"><div class="ic"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="4"/><path d="M12 3v3M21 12h-3"/></svg></div><div><b>قرارات أذكى</b><span>Smarter Decisions</span></div></div>
+        <div class="pillar"><div class="ic"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 17l6-6 4 4 8-8M15 7h6v6"/></svg></div><div><b>مستقبل أفضل</b><span>Better Future</span></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="areas">
+  <div class="wrap">
+    <h2 class="reveal">مجالات الشراكة</h2>
+    <p class="sub reveal">اختر ما يناسب جهتك، ويمكن الجمع بين أكثر من مجال.</p>
+    <div class="grid3">
+      <div class="card reveal"><div class="ic"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="3"/><path d="M3 10h18M8 2v4M16 2v4"/></svg></div><h3>ورش وفعاليات مشتركة</h3><p>تنظيم لقاءات وورش تجمع طلبتنا بخبراتكم.</p></div>
+      <div class="card reveal"><div class="ic"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 10L12 5 2 10l10 5 10-5z"/><path d="M6 12v5c3 2 9 2 12 0v-5"/></svg></div><h3>تدريب وتأهيل</h3><p>برامج تدريبية تبني مهارات الطلبة وتجهّزهم لسوق العمل.</p></div>
+      <div class="card reveal"><div class="ic"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="7" width="20" height="14" rx="3"/><path d="M16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2"/></svg></div><h3>توظيف وتدريب ميداني</h3><p>فرص عمل وتدريب للطلبة والخريجين.</p></div>
+      <div class="card reveal"><div class="ic"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1 1.1L12 21l7.8-7.5 1-1.1a5.5 5.5 0 0 0 0-7.8z"/></svg></div><h3>رعاية ودعم</h3><p>دعم مبادراتنا وفعالياتنا ليصل أثرها لعدد أكبر.</p></div>
+      <div class="card reveal"><div class="ic"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 18l6-6-6-6M8 6l-6 6 6 6"/></svg></div><h3>مشاريع تقنية مشتركة</h3><p>تطوير حلول وأفكار تقنية بالتعاون مع فريقنا.</p></div>
+      <div class="card reveal"><div class="ic"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg></div><h3>محتوى وتوعية</h3><p>محتوى مشترك ينشر المعرفة ويصل لمجتمعنا.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="alt">
+  <div class="wrap">
+    <h2 class="reveal">كيف تبدأ؟</h2>
+    <p class="sub reveal">ثلاث خطوات بسيطة.</p>
+    <div class="steps" style="margin-top:22px">
+      <div class="stp reveal"><h3>سجّل بيانات جهتك</h3><p>أجب عن أسئلة قصيرة عن جهتك وجهة الاتصال ومجالات اهتمامك.</p></div>
+      <div class="stp reveal"><h3>نراجع ونتواصل معك</h3><p>يراجع فريق NextStep AI بياناتك ويتواصل معك لمناقشة الشراكة.</p></div>
+      <div class="stp reveal"><h3>نبدأ التعاون</h3><p>نتفق على الشكل المناسب ونبدأ العمل المشترك.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="faq">
+  <div class="wrap">
+    <h2 class="reveal">أسئلة شائعة</h2>
+    <p class="sub reveal">إجابات سريعة قبل أن تسجّل.</p>
+    <div class="faq reveal">
+      <details><summary>من يمكنه التسجيل؟</summary><p>أي شركة أو فريق أو مؤسسة أو جامعة أو مبادرة ترغب في بناء شراكة مع NextStep AI، سواء كانت كبيرة أو ناشئة.</p></details>
+      <details><summary>هل التسجيل مجاني؟</summary><p>نعم، التسجيل في شبكة الشركاء مجاني.</p></details>
+      <details><summary>هل يعني التسجيل اعتماد الشراكة تلقائيًا؟</summary><p>لا. يخضع كل طلب لمراجعة فريق NextStep AI، ثم نتواصل معكم لمناقشة شكل التعاون المناسب.</p></details>
+      <details><summary>ماذا يحدث بعد إرسال الطلب؟</summary><p>تحصل على رقم متابعة فور الإرسال. يراجع الفريق الطلب ويتواصل معكم عبر الواتساب أو البريد الإلكتروني المسجّل.</p></details>
+      <details><summary>كيف أتابع حالة طلبي؟</summary><p>من قسم «تتبّع طلبك» في هذه الصفحة، بإدخال رقم المتابعة والبريد الإلكتروني الذي سجّلت به.</p></details>
+      <details><summary>من يطّلع على بياناتنا؟</summary><p>فريق NextStep AI المخوّل فقط، ولا تُعرض للعامة. التفاصيل في <a href="privacy.html" style="color:var(--blue);font-weight:700;text-decoration:underline">سياسة الخصوصية</a>.</p></details>
+      <details><summary>هل أستطيع تعديل بيانات جهتنا أو حذفها؟</summary><p>نعم، تواصل معنا عبر قنواتنا الرسمية وأرسل رقم المتابعة، وسنعدّل البيانات أو نحذفها بناءً على طلبك.</p></details>
+    </div>
+  </div>
+</section>
+
+<section id="connect">
+  <div class="wrap">
+    <h2 class="reveal">تابعنا وانضم لمجتمعنا</h2>
+    <p class="sub reveal">كن قريبًا من أخبار المنصة وفعالياتها.</p>
+    <div class="social">
+      <a class="soc ig reveal" href="https://instagram.com/nextstepai12" target="_blank" rel="noopener"><div class="si"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg></div><div><b>إنستغرام</b><span dir="ltr">@nextstepai12</span></div></a>
+      <a class="soc li reveal" href="https://www.linkedin.com/in/nextstep-ai" target="_blank" rel="noopener"><div class="si"><svg width="26" height="26" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9.5h4V21H3zM9.5 9.5h3.8v1.6h.1c.5-1 1.8-2 3.8-2 4 0 4.8 2.6 4.8 6V21h-4v-5.1c0-1.2 0-2.8-1.7-2.8s-2 1.3-2 2.7V21h-4z"/></svg></div><div><b>لينكدإن</b><span>صفحة NextStep AI</span></div></a>
+      <a class="soc wa reveal" href="https://chat.whatsapp.com/JEzuy1JozEv0ubOZ74QXQs?s=cl&amp;p=a&amp;mlu=4&amp;ilr=4" target="_blank" rel="noopener"><div class="si"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 11.5a8.4 8.4 0 0 1-12.4 7.4L3 20.5l1.7-5.4A8.5 8.5 0 1 1 21 11.5z"/></svg></div><div><b>مجتمع واتساب</b><span>انضم لنقاشاتنا وفعالياتنا</span></div></a>
+    </div>
+  </div>
+</section>
+
+<section id="register" class="alt">
+  <div class="wrap">
+    <div class="reg">
+      <div class="pc-scene" id="pcScene">
+        <div class="pcard" id="pcard">
+          <div class="pc-top"><div class="lg"><img src="assets/n-icon.png" alt=""><span>NextStep <b style="color:#06B6D4">AI</b></span></div><small>PARTNER CARD</small></div>
+          <span class="pc-type" id="pcType">نوع الجهة</span>
+          <div class="pc-name ph" id="pcName">اسم جهتك هنا</div>
+          <div class="pc-en" id="pcEn"></div>
+          <div class="pc-meta">
+            <div><span>الموقع</span><b id="pcLoc">—</b></div>
+            <div><span>المجال</span><b id="pcSec">—</b></div>
+          </div>
+          <div class="pc-tags" id="pcTags"></div>
+          <div class="stamp">تم الاستلام</div>
+        </div>
+      </div>
+
+      <div class="form-card reveal">
+        <div id="formBox">
+          <h2>سجّل جهتك كشريك</h2>
+          <div class="stepper" id="stepper"><div class="dot on"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div></div>
+          <div class="step-t" id="stepT">الخطوة <b>1</b> من 4 — بيانات الجهة</div>
+
+          <form id="pForm" novalidate>
+            <div class="hp" aria-hidden="true"><label>لا تملأ هذا الحقل<input type="text" id="website_hp" tabindex="-1" autocomplete="off"></label></div>
+
+            <div class="panel act" data-step="0">
+              <div class="two">
+                <div class="field"><label class="l" for="entity_type">نوع الجهة</label>
+                  <select id="entity_type"><option value="">اختر...</option><option>شركة</option><option>فريق</option><option>جامعة / كلية</option><option>مؤسسة / منظمة</option><option>مبادرة</option><option>شركة ناشئة</option><option>أخرى</option></select><div class="err" data-for="entity_type"></div></div>
+                <div class="field"><label class="l" for="sector">المجال</label>
+                  <select id="sector"><option value="">اختر...</option><option>التقنية والمعلومات</option><option>التعليم والتدريب</option><option>الصحة</option><option>الإعلام والتسويق</option><option>الأعمال وريادة الأعمال</option><option>العمل الخيري والمجتمعي</option><option>الصناعة والتجارة</option><option>الخدمات</option><option>أخرى</option></select><div class="err" data-for="sector"></div></div>
+              </div>
+              <div class="field"><label class="l" for="name_ar">اسم الجهة بالعربية</label><input type="text" id="name_ar" autocomplete="organization"><div class="err" data-for="name_ar"></div></div>
+              <div class="field"><label class="l" for="name_en">اسم الجهة بالإنجليزية <small>(اختياري)</small></label><input type="text" id="name_en" dir="ltr"></div>
+              <div class="two">
+                <div class="field"><label class="l" for="country">البلد</label><input type="text" id="country" autocomplete="country-name"><div class="err" data-for="country"></div></div>
+                <div class="field"><label class="l" for="city">المدينة <small>(اختياري)</small></label><input type="text" id="city"></div>
+              </div>
+              <div class="two">
+                <div class="field"><label class="l" for="founded_year">سنة التأسيس <small>(اختياري)</small></label><input type="number" id="founded_year" inputmode="numeric" min="1900" max="2100" dir="ltr" placeholder="2024"><div class="err" data-for="founded_year"></div></div>
+                <div class="field"><label class="l" for="team_size">حجم الفريق <small>(اختياري)</small></label>
+                  <select id="team_size"><option value="">اختر...</option><option>1–5</option><option>6–20</option><option>21–50</option><option>51–200</option><option>أكثر من 200</option></select></div>
+              </div>
+              <div class="field"><label class="l" for="website">الموقع الإلكتروني <small>(اختياري)</small></label><input type="url" id="website" dir="ltr" placeholder="https://"><div class="err" data-for="website"></div></div>
+              <div class="field"><label class="l" for="social_links">روابط التواصل <small>(لينكدإن، إنستغرام... اختياري)</small></label><input type="text" id="social_links" dir="ltr"></div>
+              <div class="field"><label class="l" for="logo_url">رابط الشعار <small>(اختياري)</small></label><input type="url" id="logo_url" dir="ltr" placeholder="https://"><div class="err" data-for="logo_url"></div></div>
+              <div class="field"><label class="l" for="description">نبذة عن الجهة</label><textarea id="description" placeholder="ماذا تفعل جهتكم؟ ما أبرز أنشطتها؟"></textarea><div class="cnt" id="descCnt">0 / 2000</div><div class="err" data-for="description"></div></div>
+            </div>
+
+            <div class="panel" data-step="1">
+              <div class="field"><label class="l" for="contact_name">اسم الشخص المسؤول</label><input type="text" id="contact_name" autocomplete="name"><div class="err" data-for="contact_name"></div></div>
+              <div class="field"><label class="l" for="contact_role">المنصب / الصفة</label><input type="text" id="contact_role" autocomplete="organization-title"><div class="err" data-for="contact_role"></div></div>
+              <div class="two">
+                <div class="field"><label class="l" for="email">البريد الإلكتروني</label><input type="email" id="email" inputmode="email" autocomplete="email" dir="ltr"><div class="err" data-for="email"></div></div>
+                <div class="field"><label class="l" for="whatsapp">رقم الواتساب</label><div class="phone"><select id="cc" aria-label="مفتاح الدولة"><option value="+970">+970 فلسطين</option><option value="+962">+962 الأردن</option><option value="+20">+20 مصر</option><option value="+966">+966 السعودية</option><option value="+971">+971 الإمارات</option><option value="+974">+974 قطر</option><option value="+965">+965 الكويت</option><option value="+968">+968 عُمان</option><option value="+973">+973 البحرين</option><option value="+961">+961 لبنان</option><option value="+963">+963 سوريا</option><option value="+964">+964 العراق</option><option value="+967">+967 اليمن</option><option value="+212">+212 المغرب</option><option value="+213">+213 الجزائر</option><option value="+216">+216 تونس</option><option value="+218">+218 ليبيا</option><option value="+249">+249 السودان</option><option value="+90">+90 تركيا</option><option value="+44">+44 بريطانيا</option><option value="+49">+49 ألمانيا</option><option value="+1">+1 أمريكا / كندا</option><option value="+60">+60 ماليزيا</option></select><input type="tel" id="whatsapp" inputmode="tel" autocomplete="tel-national" placeholder="59 123 4567" dir="ltr"></div><div class="hint">اكتب الرقم دون صفر البداية، أو اكتبه كاملًا بصيغة +970...</div><div class="err" data-for="whatsapp"></div></div>
+              </div>
+            </div>
+
+            <div class="panel" data-step="2">
+              <div class="field"><label class="l">مجالات الشراكة التي تهمكم <small>(اختر واحدًا على الأقل)</small></label>
+                <div class="chips" id="interests">
+                  <label class="cb"><input class="sr" type="checkbox" value="ورش وفعاليات مشتركة"><span>ورش وفعاليات</span></label>
+                  <label class="cb"><input class="sr" type="checkbox" value="تدريب وتأهيل"><span>تدريب وتأهيل</span></label>
+                  <label class="cb"><input class="sr" type="checkbox" value="توظيف وتدريب ميداني"><span>توظيف وتدريب ميداني</span></label>
+                  <label class="cb"><input class="sr" type="checkbox" value="رعاية ودعم"><span>رعاية ودعم</span></label>
+                  <label class="cb"><input class="sr" type="checkbox" value="مشاريع تقنية مشتركة"><span>مشاريع تقنية</span></label>
+                  <label class="cb"><input class="sr" type="checkbox" value="محتوى وتوعية"><span>محتوى وتوعية</span></label>
+                  <label class="cb"><input class="sr" type="checkbox" value="استشارات وإرشاد مهني"><span>استشارات وإرشاد</span></label>
+                  <label class="cb"><input class="sr" type="checkbox" value="أخرى"><span>أخرى</span></label>
+                </div><div class="err" data-for="interests"></div></div>
+              <div class="field"><label class="l" for="offers">ماذا تستطيع جهتكم تقديمه لنا؟ <small>(اختياري)</small></label><textarea id="offers"></textarea></div>
+              <div class="field"><label class="l" for="needs">ماذا تتوقعون أو تحتاجون منا؟ <small>(اختياري)</small></label><textarea id="needs"></textarea></div>
+              <div class="two">
+                <div class="field"><label class="l" for="reach">عدد المستفيدين / الأعضاء <small>(اختياري)</small></label>
+                  <select id="reach"><option value="">اختر...</option><option>أقل من 100</option><option>100–500</option><option>500–2000</option><option>أكثر من 2000</option><option>لا أعلم بعد</option></select></div>
+              </div>
+              <div class="field"><label class="l" for="past_events">فعاليات أو تعاونات سابقة <small>(اختياري)</small></label><textarea id="past_events"></textarea></div>
+            </div>
+
+            <div class="panel" data-step="3">
+              <div class="sumbox" id="sum"></div>
+              <label class="check"><input type="checkbox" id="consent"><span>أقرّ بصحة البيانات، وأوافق على تواصل فريق NextStep AI معي بخصوص الشراكة، وعلى حفظ بيانات الجهة لهذا الغرض، وفق <span class="legal"><a href="privacy.html" target="_blank" rel="noopener">سياسة الخصوصية</a></span>.</span></label>
+              <div class="err" data-for="consent"></div>
+              <div id="tsBox" style="display:none;margin-top:14px"><div id="ts"></div><div class="err" data-for="ts"></div></div>
+              <div class="privacy"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="11" width="16" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></svg><span>بياناتك محفوظة لدى فريق NextStep AI فقط ولا تُعرض للعامة.</span></div>
+            </div>
+
+            <div class="nav-row">
+              <button class="btn btn-ghost" type="button" id="backBtn" style="display:none">رجوع</button>
+              <button class="btn btn-primary mag" type="button" id="nextBtn">التالي</button>
+            </div>
+            <div class="form-msg" id="formMsg" role="alert"></div>
+          </form>
+        </div>
+
+        <div class="success" id="success">
+          <div class="ok"><svg width="46" height="46" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg></div>
+          <h2 id="okTitle">وصلنا طلب شراكتكم</h2>
+          <p class="sub" id="okText">شكرًا لك. سيراجع فريق NextStep AI بيانات جهتكم ويتواصل معكم قريبًا. وفي الأثناء انضم لمجتمعنا وتابعنا.</p>
+          <div class="refbox" id="refBox"><span>رقم متابعة طلبك</span><b id="refVal">NS-XXXXXXXX</b><button type="button" id="copyRef">نسخ</button></div>
+          <p class="sub" id="refHint" style="font-size:15px;margin-bottom:14px">احتفظ بهذا الرقم، فبه وببريدك تتبّع حالة طلبك من قسم <a href="#track" style="color:var(--blue);font-weight:700;text-decoration:underline">تتبّع طلبك</a>.</p>
+          <a class="btn btn-wa" target="_blank" rel="noopener" href="https://chat.whatsapp.com/JEzuy1JozEv0ubOZ74QXQs?s=cl&amp;p=a&amp;mlu=4&amp;ilr=4">انضم لمجتمع واتساب</a>
+          <div class="succ-row">
+            <a class="btn btn-ghost" target="_blank" rel="noopener" href="https://instagram.com/nextstepai12">إنستغرام</a>
+            <a class="btn btn-ghost" target="_blank" rel="noopener" href="https://www.linkedin.com/in/nextstep-ai">لينكدإن</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="track">
+  <div class="wrap">
+    <div class="track-card reveal">
+      <h2 style="font-size:30px">تتبّع طلبك</h2>
+      <p class="sub" style="font-size:16px;margin-bottom:14px">أدخل رقم المتابعة الذي ظهر لك بعد التسجيل، والبريد الإلكتروني الذي سجّلت به.</p>
+      <form class="track-form" id="trackForm" novalidate>
+        <div class="field"><label class="l" for="t_ref">رقم المتابعة</label><input type="text" id="t_ref" placeholder="NS-XXXXXXXX" maxlength="11" autocomplete="off"></div>
+        <div class="field"><label class="l" for="t_email">البريد الإلكتروني</label><input type="email" id="t_email" autocomplete="email"></div>
+        <button class="btn btn-primary" type="submit" id="trackBtn" style="padding:13px 26px">تتبّع</button>
+      </form>
+      <div class="err" id="trackErr" role="alert"></div>
+      <div class="tres" id="tres">
+        <h3 id="tName"></h3>
+        <div class="st" id="tStatus"></div>
+        <div class="tl" id="tl"><div>تم استلام الطلب</div><div>قيد المراجعة</div><div>تواصل الفريق معك</div><div>القرار</div></div>
+        <div class="tmsg" id="tMsg"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="wrap">
+  <div class="founder reveal">
+    <div class="f-photo"><img class="fb" src="assets/n-icon.png" alt=""><img id="fPhoto" alt="م. أحمد الحايك — مؤسس NextStep AI"></div>
+    <div>
+      <div class="f-name">م. أحمد الحايك</div>
+      <div class="f-role">مؤسس <b>NextStep AI</b> — مهندس ذكاء اصطناعي</div>
+      <div class="f-slogan">AI Engineer | Building Real-World AI Systems with LLMs, AI Agents &amp; Data Science</div>
+      <div class="f-badges"><span>Founder &amp; CEO — NextStep AI</span><span>USAII 2026 Global AI Hackathon Finalist</span></div>
+    </div>
+    <div class="f-actions">
+      <a class="f-link" href="https://www.linkedin.com/in/ahmedalhayek/" target="_blank" rel="noopener">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9.5h4V21H3zM9.5 9.5h3.8v1.6h.1c.5-1 1.8-2 3.8-2 4 0 4.8 2.6 4.8 6V21h-4v-5.1c0-1.2 0-2.8-1.7-2.8s-2 1.3-2 2.7V21h-4z"/></svg>
+        حساب المؤسس على لينكدإن
+      </a>
+      <a class="f-link alt" href="#register">سجّل جهتك كشريك</a>
+    </div>
+  </div>
+  <footer>
+    <img src="assets/logo.png" alt="NextStep AI">
+    <p>شبكة شركاء NextStep AI</p>
+    <p class="links"><a href="privacy.html">سياسة الخصوصية</a> · <a href="#track">تتبّع طلبك</a> · <a href="#faq">الأسئلة الشائعة</a></p>
+    <p style="margin-top:2px">&copy; 2026 NextStep AI</p>
+  </footer>
+</div>
+
+<div id="sticky"><a class="btn btn-primary" href="#register">سجّل جهتك كشريك</a></div>
+
+<script>
+/* ===================== الإعدادات ===================== */
+const CONFIG = {
+  SUPABASE_URL: "https://fwlwkshvrxhctplfbdfq.supabase.co",
+  SUPABASE_ANON_KEY: "sb_publishable__YvkD5iBjpu6BCFnrjkeAQ_kWc0QPYk", // مفتاح عام (publishable) فقط
+  TABLE: "partners",
+  /* حماية إضافية اختيارية (المستوى الثاني) — اتركهما فارغين إن لم تفعّلها، راجع SETUP.md */
+  TURNSTILE_SITE_KEY: "",   // مفتاح الموقع من Cloudflare Turnstile
+  FUNCTION_URL: ""          // رابط Edge Function: https://<ref>.supabase.co/functions/v1/submit-partner
+};
+
+const $ = s => document.querySelector(s);
+const $$ = s => [...document.querySelectorAll(s)];
+const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
+const touch = matchMedia('(pointer: coarse)').matches;
+
+/* ---------- scroll progress + sticky CTA ---------- */
+const bar = $('#bar');
+addEventListener('scroll', () => { const h = document.documentElement; bar.style.width = (h.scrollTop / (h.scrollHeight - h.clientHeight) * 100) + '%'; }, {passive:true});
+const sticky = $('#sticky'); let regVisible = false;
+new IntersectionObserver(es => { regVisible = es[0].isIntersecting; updSticky(); }, {threshold:.1}).observe($('#register'));
+function updSticky(){ sticky.classList.toggle('show', scrollY > 500 && !regVisible); }
+addEventListener('scroll', updSticky, {passive:true});
+
+/* ---------- reveal ---------- */
+const io = new IntersectionObserver(es => es.forEach(e => {
+  if (!e.isIntersecting) return;
+  const t = e.target; t.classList.add('in'); io.unobserve(t);
+  /* بعد اكتمال الظهور نزيل صنف reveal كي لا يبطّئ انتقالات الـ3D والتمرير فوق البطاقات */
+  setTimeout(() => { t.style.transitionDelay = ''; t.classList.remove('reveal','in'); }, 1100 + (parseInt(t.style.transitionDelay) || 0));
+}), {threshold:.12});
+$$('.reveal').forEach((el,i) => { el.style.transitionDelay = (i%3)*90 + 'ms'; io.observe(el); });
+
+/* ---------- interactive dot field ---------- */
+(function(){
+  const c = $('#dots');
+  if (reduce || touch){ document.documentElement.classList.add('no-canvas'); c.remove(); return; }
+  const ctx = c.getContext('2d'); let W,H,dpr; const GAP = 34; let mx=-999,my=-999, raf=0;
+  function size(){ dpr = Math.min(devicePixelRatio||1,2); W=innerWidth; H=innerHeight; c.width=W*dpr; c.height=H*dpr; ctx.setTransform(dpr,0,0,dpr,0,0); draw(); }
+  function draw(){
+    ctx.clearRect(0,0,W,H);
+    for (let x=GAP/2; x<W; x+=GAP) for (let y=GAP/2; y<H; y+=GAP){
+      const dx=x-mx, dy=y-my, d=Math.sqrt(dx*dx+dy*dy), k=Math.max(0,1-d/170);
+      ctx.beginPath(); ctx.arc(x - dx*k*.12, y - dy*k*.12, 1.3 + k*3.2, 0, 6.283);
+      ctx.fillStyle = `rgba(${Math.round(37-31*k)},${Math.round(99+83*k)},${Math.round(235-23*k)},${.13 + k*.5})`; ctx.fill();
+    }
+  }
+  addEventListener('mousemove', e => { mx=e.clientX; my=e.clientY; if(!raf) raf=requestAnimationFrame(()=>{raf=0;draw()}); }, {passive:true});
+  addEventListener('resize', size); size();
+})();
+
+/* ---------- 3D tilt ---------- */
+(function(){
+  if (reduce || touch) return;
+  function bind(host, el, max, glow){
+    host.addEventListener('mousemove', e=>{
+      const r = host.getBoundingClientRect();
+      const x = (e.clientX - r.left)/r.width - .5, y = (e.clientY - r.top)/r.height - .5;
+      el.style.transform = `rotateY(${(-x*max).toFixed(2)}deg) rotateX(${(y*max).toFixed(2)}deg)`;
+      if (glow){ el.style.setProperty('--tx', (x+.5)*100+'%'); el.style.setProperty('--ty', (y+.5)*100+'%'); }
+    });
+    host.addEventListener('mouseleave', ()=>{ el.style.transform=''; });
+  }
+  bind($('#scene'), $('#tilt'), 18);
+  bind($('#pcScene'), $('#pcard'), 14, true);
+  $$('.card').forEach(c => {
+    c.addEventListener('mousemove', e=>{
+      const r = c.getBoundingClientRect(), x=(e.clientX-r.left)/r.width, y=(e.clientY-r.top)/r.height;
+      c.style.setProperty('--mx', x*100+'%'); c.style.setProperty('--my', y*100+'%');
+      c.style.transform = `rotateY(${((.5-x)*10).toFixed(2)}deg) rotateX(${((y-.5)*10).toFixed(2)}deg) translateY(-4px)`;
+    });
+    c.addEventListener('mouseleave', ()=>{ c.style.transform=''; });
+  });
+  $$('.mag').forEach(b => {
+    b.addEventListener('mousemove', e=>{ const r=b.getBoundingClientRect(); b.style.transform = `translate(${((e.clientX-r.left-r.width/2)*.18).toFixed(1)}px,${((e.clientY-r.top-r.height/2)*.28).toFixed(1)}px)`; });
+    b.addEventListener('mouseleave', ()=>{ b.style.transform=''; });
+  });
+})();
+
+/* ---------- wizard form ---------- */
+const STEPS = ['بيانات الجهة','جهة الاتصال','مجالات الشراكة','المراجعة والإرسال'];
+const val = id => ($('#'+id).value || '').trim().replace(/\s+/g,' ');
+const area = id => ($('#'+id).value || '').trim();
+const digitsAr = v => v.replace(/[٠-٩]/g, d => '٠١٢٣٤٥٦٧٨٩'.indexOf(d)).replace(/[۰-۹]/g, d => '۰۱۲۳۴۵۶۷۸۹'.indexOf(d));
+function fullPhone(){
+  let raw = digitsAr(($('#whatsapp').value || '').trim()).replace(/[\s\-().]/g,'');
+  if (raw.startsWith('00')) raw = '+' + raw.slice(2);
+  if (raw.startsWith('+')) return raw;
+  return $('#cc').value + raw.replace(/^0+/,'');
+}
+const phoneOk = () => /^\+\d{9,15}$/.test(fullPhone());
+const urlOk = v => !v || /^https?:\/\/[^\s]+\.[^\s]{2,}$/i.test(v);
+const fixUrl = v => !v ? '' : (/^https?:\/\//i.test(v) ? v : 'https://' + v);
+const interests = () => $$('#interests input:checked').map(i => i.value);
+
+const setErr = (id, t) => {
+  const e = document.querySelector(`.err[data-for="${id}"]`); if (e) e.textContent = t || '';
+  const f = document.getElementById(id); if (f && f.type !== 'checkbox') f.classList.toggle('bad', !!t);
+};
+let step = 0;
+
+function check(s){
+  let ok = true; const bad = (id,t) => { setErr(id,t); ok = false; }, good = id => setErr(id);
+  if (s === 0){
+    val('entity_type') ? good('entity_type') : bad('entity_type','اختر نوع الجهة');
+    val('sector') ? good('sector') : bad('sector','اختر المجال');
+    val('name_ar').length >= 2 ? good('name_ar') : bad('name_ar','أدخل اسم الجهة');
+    val('country').length >= 2 ? good('country') : bad('country','أدخل البلد');
+    const y = val('founded_year'); (!y || (+y >= 1900 && +y <= 2100)) ? good('founded_year') : bad('founded_year','سنة غير صحيحة');
+    urlOk(fixUrl(val('website'))) ? good('website') : bad('website','رابط غير صحيح');
+    urlOk(fixUrl(val('logo_url'))) ? good('logo_url') : bad('logo_url','رابط غير صحيح');
+    area('description').length >= 20 ? good('description') : bad('description','اكتب نبذة لا تقل عن 20 حرفًا');
+  }
+  if (s === 1){
+    val('contact_name').split(' ').length >= 2 && val('contact_name').length >= 5 ? good('contact_name') : bad('contact_name','اكتب الاسم الأول والأخير على الأقل');
+    val('contact_role').length >= 2 ? good('contact_role') : bad('contact_role','أدخل المنصب');
+    /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(val('email')) ? good('email') : bad('email','أدخل بريدًا إلكترونيًا صحيحًا');
+    phoneOk() ? good('whatsapp') : bad('whatsapp','أدخل رقم واتساب صحيحًا (اختر مفتاح الدولة واكتب الرقم)');
+  }
+  if (s === 2){
+    interests().length ? good('interests') : bad('interests','اختر مجالًا واحدًا على الأقل');
+  }
+  if (s === 3){
+    $('#consent').checked ? good('consent') : bad('consent','يجب الموافقة للمتابعة');
+    if (tsOn()) { tsToken ? good('ts') : bad('ts','أكّد أنك لست روبوتًا'); }
+  }
+  return ok;
+}
+
+function show(n){
+  step = n;
+  $$('.panel').forEach(p => p.classList.toggle('act', +p.dataset.step === n));
+  $$('.dot').forEach((d,i) => d.classList.toggle('on', i <= n));
+  $('#stepT').innerHTML = `الخطوة <b>${n+1}</b> من 4 — ${STEPS[n]}`;
+  $('#backBtn').style.display = n ? '' : 'none';
+  $('#nextBtn').textContent = n === 3 ? 'إرسال الطلب' : 'التالي';
+  if (n === 3) summary();
+  $('#formMsg').textContent = '';
+  const top = $('#formBox').getBoundingClientRect().top + scrollY - 20;
+  scrollTo({top, behavior: reduce ? 'auto' : 'smooth'});
+}
+
+function summary(){
+  const rows = [['الجهة', val('name_ar') + (val('entity_type') ? ' — ' + val('entity_type') : '')],['الموقع',[val('city'),val('country')].filter(Boolean).join('، ')],['المجال',val('sector')],['المسؤول',val('contact_name') + ' — ' + val('contact_role')],['البريد',val('email')],['الواتساب',fullPhone()],['مجالات الشراكة',interests().join('، ')]];
+  const box = $('#sum'); box.innerHTML = '';
+  rows.forEach(([k,v]) => { const d = document.createElement('div'), s = document.createElement('span'), b = document.createElement('b'); s.textContent = k; b.textContent = v || '—'; if (k==='البريد'||k==='الواتساب') b.dir='ltr'; d.append(s,b); box.append(d); });
+}
+
+/* live partner-card preview */
+function preview(){
+  const n = val('name_ar'), nameEl = $('#pcName');
+  nameEl.textContent = n || 'اسم جهتك هنا'; nameEl.classList.toggle('ph', !n);
+  $('#pcType').textContent = val('entity_type') || 'نوع الجهة';
+  $('#pcEn').textContent = val('name_en');
+  $('#pcLoc').textContent = [val('city'), val('country')].filter(Boolean).join('، ') || '—';
+  $('#pcSec').textContent = val('sector') || '—';
+  const t = $('#pcTags'); t.innerHTML = '';
+  interests().slice(0,4).forEach(x => { const i = document.createElement('i'); i.textContent = x; t.append(i); });
+}
+$('#pForm').querySelectorAll('input,select,textarea').forEach(el => { el.addEventListener('input', () => { if (el.id) setErr(el.id); preview(); }); el.addEventListener('change', preview); });
+$('#interests').addEventListener('change', () => setErr('interests'));
+
+$('#nextBtn').addEventListener('click', () => { if (!check(step)) return; step < 3 ? show(step+1) : submit(); });
+$('#backBtn').addEventListener('click', () => step && show(step-1));
+$('#pForm').addEventListener('keydown', e => { if (e.key === 'Enter' && e.target.tagName !== 'TEXTAREA'){ e.preventDefault(); $('#nextBtn').click(); } });
+
+/* confetti */
+function confetti(){
+  if (reduce) return;
+  const c = $('#cv'), x = c.getContext('2d'); c.width = innerWidth; c.height = innerHeight;
+  const cols = ['#2563EB','#06B6D4','#10B981','#0B1220','#7FB0FF'];
+  const ps = Array.from({length:150}, () => ({x:innerWidth/2+(Math.random()-.5)*220, y:innerHeight*.55, vx:(Math.random()-.5)*16, vy:-Math.random()*16-6, s:Math.random()*8+4, r:Math.random()*6, vr:(Math.random()-.5)*.4, c:cols[Math.random()*cols.length|0]}));
+  let f = 0;
+  (function stepF(){
+    x.clearRect(0,0,c.width,c.height);
+    ps.forEach(p => { p.vy += .42; p.x += p.vx; p.y += p.vy; p.r += p.vr; x.save(); x.translate(p.x,p.y); x.rotate(p.r); x.fillStyle=p.c; x.fillRect(-p.s/2,-p.s/4,p.s,p.s/2); x.restore(); });
+    if (++f < 170) requestAnimationFrame(stepF); else x.clearRect(0,0,c.width,c.height);
+  })();
+}
+
+/* رمز المتابعة: يُولَّد في المتصفح (تشفيريًا) ويُتحقق منه ويُعاد توليده عند الحاجة في الخادم */
+const REF_ALPHA = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ234567';
+function genRef(){
+  const b = new Uint8Array(8); crypto.getRandomValues(b);
+  return 'NS-' + [...b].map(x => REF_ALPHA[x % 32]).join('');
+}
+let myRef = '';
+function rememberLocal(ref, email){ try{ localStorage.setItem('ns_last', JSON.stringify({ref, email})); }catch(e){} }
+
+function done(already, ref){
+  $('#formBox').style.display = 'none';
+  $('#success').style.display = 'block';
+  $('#pcard').classList.add('done');
+  const rb = $('#refBox'), rh = $('#refHint');
+  if (already){ rb.style.display = 'none'; rh.textContent = 'استخدم رقم المتابعة الذي وصلك عند التسجيل الأول لتتبّع طلبك من قسم «تتبّع طلبك».'; }
+  else { $('#refVal').textContent = ref; }
+  if (already){ $('#okTitle').textContent = 'طلبكم مسجّل مسبقًا'; $('#okText').textContent = 'بيانات جهتكم محفوظة لدينا وسنتواصل معكم قريبًا. وفي الأثناء انضم لمجتمعنا وتابعنا.'; }
+  else confetti();
+  $('#register').scrollIntoView({behavior:'smooth', block:'start'});
+}
+
+/* المفاتيح الجديدة sb_publishable_ ليست JWT فلا تُرسل في Authorization */
+function apiHeaders(){
+  const h = {'Content-Type':'application/json', apikey:CONFIG.SUPABASE_ANON_KEY, Prefer:'return=minimal'};
+  if (CONFIG.SUPABASE_ANON_KEY.startsWith('eyJ')) h.Authorization = 'Bearer ' + CONFIG.SUPABASE_ANON_KEY;
+  return h;
+}
+
+const PAGE_T0 = Date.now();
+let tsToken = '';
+function tsOn(){ return !!(CONFIG.TURNSTILE_SITE_KEY && CONFIG.FUNCTION_URL); }
+(function initTurnstile(){
+  if (!tsOn()) return;
+  $('#tsBox').style.display = 'block';
+  const sc = document.createElement('script');
+  sc.src = 'https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit'; sc.async = true;
+  sc.onload = () => window.turnstile.render('#ts', {sitekey: CONFIG.TURNSTILE_SITE_KEY, language:'ar',
+    callback: t => { tsToken = t; setErr('ts'); }, 'expired-callback': () => { tsToken = ''; }, 'error-callback': () => { tsToken = ''; }});
+  document.head.appendChild(sc);
+})();
+
+async function submit(){
+  const msg = $('#formMsg'), btn = $('#nextBtn'); msg.textContent = '';
+  if ($('#website_hp').value) return;                                   // فخ الروبوتات
+  if (Date.now() - PAGE_T0 < 6000){ msg.textContent = 'تحقق من بياناتك ثم أعد المحاولة بعد لحظات.'; return; }   // لا يملأ إنسان الفورم في أقل من 6 ثوانٍ
+  for (let s = 0; s < 4; s++) if (!check(s)){ show(s); return; }
+  btn.disabled = true; btn.textContent = 'جارٍ الإرسال...';
+  const opt = v => v || null;
+  if (!myRef) myRef = genRef();
+  const payload = {
+    ref_code: myRef,
+    entity_type: val('entity_type'), name_ar: val('name_ar'), name_en: opt(val('name_en')),
+    country: val('country'), city: opt(val('city')), sector: val('sector'),
+    founded_year: val('founded_year') ? +val('founded_year') : null, team_size: opt(val('team_size')),
+    website: opt(fixUrl(val('website'))), social_links: opt(area('social_links')), logo_url: opt(fixUrl(val('logo_url'))),
+    description: area('description'),
+    contact_name: val('contact_name'), contact_role: val('contact_role'),
+    email: val('email').toLowerCase(), whatsapp: fullPhone(),
+    interests: interests(), offers: opt(area('offers')), needs: opt(area('needs')), reach: opt(val('reach')), past_events: opt(area('past_events')),
+    consent: true
+  };
+  let url = `${CONFIG.SUPABASE_URL}/rest/v1/${CONFIG.TABLE}`, headers = apiHeaders();
+  if (tsOn()){ url = CONFIG.FUNCTION_URL; payload.turnstile_token = tsToken; headers = {'Content-Type':'application/json', apikey:CONFIG.SUPABASE_ANON_KEY}; }
+  try{
+    const res = await fetch(url, {method:'POST', headers, body:JSON.stringify(payload)});
+    if (res.ok){ rememberLocal(myRef, payload.email); $('#t_ref').value = myRef; $('#t_email').value = payload.email; done(false, myRef); }
+    else if (res.status === 409) done(true);
+    else {
+      const t = await res.text().catch(() => '');
+      if (res.status === 403 && tsOn()){ msg.textContent = 'فشل التحقق الأمني، أعد المحاولة.'; tsToken = ''; if (window.turnstile) window.turnstile.reset(); }
+      else if (/rate_limited|email_limit/.test(t)) msg.textContent = 'عدد الطلبات كبير الآن، حاول مرة أخرى بعد قليل.';
+      else msg.textContent = 'تعذّر الإرسال الآن، حاول مرة أخرى بعد قليل.';
+    }
+  }catch(e){
+    msg.textContent = 'تحقق من اتصالك بالإنترنت وحاول مرة أخرى.';
+  }finally{
+    btn.disabled = false; btn.textContent = 'إرسال الطلب';
+  }
+}
+
+/* ---------- حدود الحقول (تطابق قيود قاعدة البيانات) + عدّاد النبذة ---------- */
+(function(){
+  const lim = {name_ar:160,name_en:160,country:80,city:80,website:300,social_links:600,logo_url:300,description:2000,contact_name:120,contact_role:120,email:160,offers:2000,needs:2000,past_events:2000,whatsapp:20};
+  Object.entries(lim).forEach(([id,n]) => { const el = $('#'+id); if (el) el.maxLength = n; });
+  const d = $('#description'), c = $('#descCnt');
+  const upd = () => { const n = d.value.trim().length; c.textContent = n + ' / 2000' + (n < 20 ? ' — 20 حرفًا على الأقل' : ''); };
+  d.addEventListener('input', upd); upd();
+})();
+
+/* ---------- صورة المؤسس: ضع الملف في assets باسم founder.jpg ---------- */
+(function(){
+  const img = $('#fPhoto'); if (!img) return;
+  const cand = ['assets/founder.jpg','assets/founder.jpeg','assets/founder.png','assets/founder.webp']; let i = 0;
+  img.onload = () => img.classList.add('ok');
+  img.onerror = () => { if (++i < cand.length) img.src = cand[i]; };
+  img.src = cand[0];
+})();
+
+/* ---------- ميل الشعار ثلاثي الأبعاد ---------- */
+(function(){
+  if (reduce || touch) return;
+  const host = $('#showcase'), el = $('#scCard');
+  host.addEventListener('mousemove', e => { const r = host.getBoundingClientRect(), x=(e.clientX-r.left)/r.width-.5, y=(e.clientY-r.top)/r.height-.5; el.style.transform = `rotateY(${(-x*14).toFixed(2)}deg) rotateX(${(y*14).toFixed(2)}deg)`; });
+  host.addEventListener('mouseleave', () => { el.style.transform = ''; });
+})();
+
+/* ---------- نسخ الرمز + تتبّع الطلب ---------- */
+$('#copyRef').addEventListener('click', async () => {
+  const b = $('#copyRef');
+  try{ await navigator.clipboard.writeText($('#refVal').textContent); b.textContent = 'تم النسخ ✓'; }catch(e){ b.textContent = 'انسخه يدويًا'; }
+  setTimeout(() => b.textContent = 'نسخ', 2000);
+});
+const TRACK = {
+  new:        {label:'قيد المراجعة', step:1, msg:'طلبكم قيد المراجعة من فريق NextStep AI، وسنتواصل معكم قريبًا.'},
+  contacted:  {label:'تم التواصل معكم', step:2, msg:'تواصل معكم فريق NextStep AI. يرجى متابعة الواتساب والبريد الإلكتروني المسجّلين.'},
+  in_progress:{label:'التعاون قيد التنفيذ', step:2, msg:'نعمل معكم حاليًا على تفاصيل الشراكة.'},
+  approved:   {label:'معتمد شريكًا', step:3, msg:'تم اعتماد جهتكم شريكًا في شبكة NextStep AI. أهلًا بكم!'},
+  declined:   {label:'لم يُعتمد حاليًا', step:3, bad:true, msg:'لم يتم اعتماد الطلب في الوقت الحالي. يمكنكم التواصل معنا عبر قنواتنا الرسمية لمعرفة المزيد.'},
+  archived:   {label:'مغلق', step:3, bad:true, msg:'تم إغلاق هذا الطلب. للاستفسار تواصلوا معنا عبر قنواتنا الرسمية.'}
+};
+(function(){
+  try{ const l = JSON.parse(localStorage.getItem('ns_last') || 'null'); if (l){ $('#t_ref').value = l.ref || ''; $('#t_email').value = l.email || ''; } }catch(e){}
+  let last = 0;
+  $('#trackForm').addEventListener('submit', async e => {
+    e.preventDefault();
+    const err = $('#trackErr'), res = $('#tres'); err.textContent = ''; res.classList.remove('show');
+    const ref = $('#t_ref').value.trim().toUpperCase(), email = $('#t_email').value.trim().toLowerCase();
+    if (!/^NS-[A-Z2-7]{8}$/.test(ref)){ err.textContent = 'رقم المتابعة غير صحيح (مثال: NS-ABCD2345).'; return; }
+    if (!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(email)){ err.textContent = 'أدخل البريد الإلكتروني الذي سجّلت به.'; return; }
+    if (Date.now() - last < 3000){ err.textContent = 'انتظر لحظات ثم أعد المحاولة.'; return; }
+    last = Date.now();
+    const b = $('#trackBtn'); b.disabled = true; b.textContent = 'جارٍ البحث...';
+    try{
+      const r = await fetch(`${CONFIG.SUPABASE_URL}/rest/v1/rpc/partner_track`, {method:'POST', headers:{'Content-Type':'application/json', apikey:CONFIG.SUPABASE_ANON_KEY}, body:JSON.stringify({p_ref:ref, p_email:email})});
+      if (!r.ok) throw new Error('http');
+      const rows = await r.json();
+      const nf = $('#tMsg');
+      if (!rows.length){
+        $('#tName').textContent = 'لم نعثر على طلب'; $('#tStatus').textContent = '';
+        $('#tl').style.display = 'none'; nf.textContent = 'تأكد من رقم المتابعة ومن أن البريد هو نفسه المستخدم عند التسجيل.'; nf.classList.add('nf');
+      } else {
+        const row = rows[0], t = TRACK[row.status] || TRACK.new;
+        $('#tName').textContent = row.name_ar;
+        $('#tStatus').textContent = 'الحالة: ' + t.label + ' — آخر تحديث ' + new Date(row.updated_at || row.created_at).toLocaleDateString('ar', {year:'numeric', month:'long', day:'numeric'});
+        $('#tl').style.display = '';
+        [...$('#tl').children].forEach((d, i) => { d.className = i <= t.step ? 'on' : ''; if (t.bad && i === 3) d.className = 'on bad'; });
+        nf.textContent = t.msg; nf.classList.remove('nf');
+      }
+      res.classList.add('show');
+    }catch(x){ err.textContent = 'تعذّر الاتصال الآن، حاول مرة أخرى بعد قليل.'; }
+    finally{ b.disabled = false; b.textContent = 'تتبّع'; }
+  });
+})();
+</script>
+</body>
+</html>
